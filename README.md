@@ -1,50 +1,16 @@
-# tool-lending-library
-# Tool Lending Library — Code Freeze: AI Injection
+# React + Vite
 
-A responsive corporate interface for managing Code Freeze requests for the Tool Lending Library.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## Features
+Currently, two official plugins are available:
 
-* Code Freeze request form
-* Input validation and error handling
-* Loading state for asynchronous operations
-* Empty state handling
-* XSS input sanitization
-* Simulated analytics logging
-* Accessible keyboard-friendly interface
-* Responsive monochromatic design
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## Tech Stack
+## React Compiler
 
-* React
-* Vite
-* JavaScript
-* CSS
-* ESLint
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Quality Checks
+## Expanding the ESLint configuration
 
-* Lighthouse Performance: 100
-* Lighthouse Accessibility: 100
-* Lighthouse Best Practices: 100
-* ESLint: Passed
-* Production Build: Passed
-
-## Run Locally
-
-```bash
-npm install
-npm run dev
-```
-
-## Production Build
-
-```bash
-npm run build
-```
-
-## Project
-
-**Ticket:** ENG-166196
-**Project:** Code Freeze: AI Injection
-**Client:** Tool Lending Library
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
